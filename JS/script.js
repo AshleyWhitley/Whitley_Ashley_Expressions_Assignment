@@ -23,7 +23,19 @@ console.log(a)
 
 //1st prompt for actual Assignment
 
-var width = prompt ("To calculate the area of a triangle please enter width variable.");
+var width = prompt ("To calculate the area of a rectangle please enter width variable.");
 var height = prompt ("Please enter the height.");
 var area = width * height;
 console.log(area)
+
+//Showing the user the answer.
+
+var width = prompt ("To calculate the area of a rectangle please enter width variable.");
+var height = prompt ("Please enter the height.");
+var area = width * height;
+
+var result = "The area of the rectangle is" + " " + area + "sq. feet";
+alert(result);
+
+//The alert worked properly giving the answer to the user. Any number works.
+// 1st test through prompt: 
