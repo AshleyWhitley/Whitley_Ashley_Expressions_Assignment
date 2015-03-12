@@ -5,6 +5,7 @@ Expressions Assignment
 March 11, 2015
  */
 
+//Practicing Assignment Operators
 //variables: Example #1 Arithmetic operation
 
 var width = 4;
@@ -18,4 +19,11 @@ var a = 12;
 a *= 10;
 console.log(a)
 
-//Answer worked on console (120)
+//Practice - Answer worked on console (120)
+
+//1st prompt for actual Assignment
+
+var width = prompt ("To calculate the area of a triangle please enter width variable.");
+var height = prompt ("Please enter the height.");
+var area = width * height;
+console.log(area)
