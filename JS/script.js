@@ -65,7 +65,4 @@ console.log(total);
 
 var videoGames = [130, 78, 23, 14];
 var total = videoGames[0] + videoGames[1] + videoGames[2] + videoGames[3];
-var Tagline = prompt ("I have" + " " + total + " " + "video games.");
-
-
- //string
+var Tagline = prompt ("I have" + " " + total + " " + "video games."); //string
